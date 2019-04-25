@@ -128,8 +128,6 @@
     <ClCompile Include="testharness.cc" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="export.h" />
-    <ClInclude Include="port.h" />
     <ClInclude Include="random.h" />
     <ClInclude Include="slice.h" />
     <ClInclude Include="status.h" />

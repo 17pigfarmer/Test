@@ -15,12 +15,12 @@
 
 #include <algorithm>
 #include <string>
-#include "export.h"
+
 #include "slice.h"
 
 namespace leveldb {
 
-class LEVELDB_EXPORT Status {
+class Status {
  public:
   // Create a success status.
   Status() noexcept : state_(nullptr) { }

@@ -29,9 +29,6 @@
     <ClInclude Include="testharness.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="export.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="status.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -39,9 +36,6 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="random.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="port.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
