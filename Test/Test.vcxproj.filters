@@ -18,21 +18,12 @@
     <ClCompile Include="testharness.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="status.cc">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="skiplist_test.cc">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="testharness.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="status.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
-    <ClInclude Include="slice.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="random.h">

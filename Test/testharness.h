@@ -10,7 +10,7 @@
 
 #include <sstream>
 
-#include "status.h"
+
 
 namespace leveldb {
 namespace test {
@@ -63,13 +63,7 @@ class Tester {
     return *this;
   }
 
-  Tester& IsOk(const Status& s) {
-    if (!s.ok()) {
-      ss_ << " " << s.ToString();
-      ok_ = false;
-    }
-    return *this;
-  }
+
 
 #define BINARY_OP(name, op)                             \
   template <class X, class Y>                           \

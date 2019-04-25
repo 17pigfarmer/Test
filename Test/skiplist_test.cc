@@ -25,7 +25,7 @@ namespace leveldb {
 	TEST(ToTest, Empty) {
 
 		ToTest totest;
-		ASSERT_TRUE(totest.a);
+		ASSERT_TRUE(!totest.a);
 
 	}
 

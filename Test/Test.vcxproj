@@ -124,13 +124,10 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="skiplist_test.cc" />
-    <ClCompile Include="status.cc" />
     <ClCompile Include="testharness.cc" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="random.h" />
-    <ClInclude Include="slice.h" />
-    <ClInclude Include="status.h" />
     <ClInclude Include="testharness.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
